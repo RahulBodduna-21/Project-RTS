@@ -1,0 +1,126 @@
+/* ===== GLOBAL ===== */
+
+body{
+    margin:0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background:#0b0f14;                 /* Deep black */
+    color:#e0ffff;
+}
+
+/* ===== MAIN CARD ===== */
+
+.container{
+    width:70%;
+    margin:auto;
+    margin-top:30px;
+    padding:25px;
+
+    background:#111820;
+    border-radius:12px;
+
+    box-shadow:
+        0 0 15px #00ffff33,
+        0 0 35px #00ffff22;
+
+    border:1px solid #00ffff55;
+}
+
+/* ===== TITLE ===== */
+
+h1{
+    text-align:center;
+    color:#00ffff;
+    letter-spacing:1px;
+    margin-bottom:20px;
+}
+
+/* ===== INPUT FIELDS ===== */
+
+input{
+    width:96%;
+    padding:12px;
+    margin:8px 0;
+
+    background:#0f141a;
+    border:1px solid #00ffff55;
+    border-radius:6px;
+
+    color:white;
+    font-size:14px;
+
+    transition:0.2s;
+}
+
+input:focus{
+    outline:none;
+    border-color:#00ffff;
+    box-shadow:0 0 8px #00ffff88;
+}
+
+/* ===== BUTTON ===== */
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+
+    background:#00ffff;
+    color:black;
+    font-weight:bold;
+
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+
+    transition:0.25s;
+}
+
+button:hover{
+    background:#00cccc;
+    transform:scale(1.02);
+}
+
+/* ===== TRAIN CARD ===== */
+
+.train{
+    background:#0f141a;
+    padding:14px;
+    margin-top:12px;
+
+    border-radius:8px;
+    border-left:5px solid #00ffff;
+
+    transition:0.2s;
+}
+
+.train:hover{
+    background:#151c24;
+    transform:translateX(5px);
+}
+
+/* ===== DETAILS BOX ===== */
+
+#details{
+    margin-top:20px;
+    padding:15px;
+    border-radius:8px;
+
+    background:#0f141a;
+    border:1px solid #00ffff55;
+}
+
+/* ===== ERROR ===== */
+
+.error{
+    color:#ff4d4d;
+    font-weight:bold;
+    margin-top:5px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:900px){
+    .container{
+        width:92%;
+    }
+}
